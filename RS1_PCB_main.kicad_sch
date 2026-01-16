@@ -1156,125 +1156,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESP32_C6_Lib:TP_1.75mm_2Points"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TP_1.75mm_2Points_0_1"
-				(circle
-					(center -2.54 3.81)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.27)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TP_1.75mm_2Points_1_1"
-				(text "TP"
-					(at 0 6.35 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "ME6217C33M5G_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -10109,16 +9990,6 @@
 		)
 		(uuid "01ae9c6a-a74e-4b3b-9e4e-edee1a7b0d9d")
 	)
-	(label "USB_P"
-		(at 40.64 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "04bfa47d-b068-448f-adce-effc9d7617d3")
-	)
 	(label "PWM_LED"
 		(at 162.56 160.02 180)
 		(effects
@@ -10189,16 +10060,6 @@
 		)
 		(uuid "21677ea8-0c37-46ab-93a1-14daae0c5580")
 	)
-	(label "USB_N"
-		(at 40.64 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "221e6bf2-f1c1-4e49-9512-719eb0f986a9")
-	)
 	(label "SDA"
 		(at 162.56 149.86 180)
 		(effects
@@ -10239,15 +10100,15 @@
 		)
 		(uuid "31a567ba-f93f-40c9-b43a-4788e8153a38")
 	)
-	(label "D+"
-		(at 25.4 34.29 180)
+	(label "USB_N"
+		(at 40.64 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "3b86569e-34fd-45be-b32b-8875f2452597")
+		(uuid "47e2095e-0d92-4b3b-83c5-c0c8f12e7079")
 	)
 	(label "PWR-KEY"
 		(at 152.4 99.06 0)
@@ -10260,14 +10121,14 @@
 		(uuid "4e1ab504-6515-4c8a-b077-76a203a2bf4d")
 	)
 	(label "D-"
-		(at 25.4 36.83 180)
+		(at 25.4 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "566ec54e-ffb7-4f39-af35-ae8f034801d6")
+		(uuid "5241193d-345e-48fb-9459-af65c923f56f")
 	)
 	(label "LCD_MOSI"
 		(at 62.23 187.96 0)
@@ -10378,6 +10239,16 @@
 			(justify left bottom)
 		)
 		(uuid "7826eba2-4e7a-49a8-82b2-b35437da49a6")
+	)
+	(label "USB_P"
+		(at 40.64 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "834818d0-2c47-4065-8c22-77e325285c49")
 	)
 	(label "BOOT"
 		(at 238.76 76.2 0)
@@ -10548,6 +10419,16 @@
 			(justify right bottom)
 		)
 		(uuid "c5bf5ace-ce89-43bb-bd65-158ee9bae5eb")
+	)
+	(label "D+"
+		(at 25.4 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c76f2402-7fe3-4ec4-9fae-e6b01f195741")
 	)
 	(label "PWM_LED"
 		(at 238.76 73.66 0)
@@ -12778,6 +12659,73 @@
 			(project "RS1_PCB_main"
 				(path "/a653fd6e-21e1-4b42-a5b7-9f0a6f836fae"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 209.55 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3be78c38-e0df-4218-8555-c9ef634fae37")
+		(property "Reference" "TP2"
+			(at 208.28 165.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "-"
+			(at 207.518 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 214.63 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 209.55 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6305b826-1d2c-460b-8c62-07defe0e2cad")
+		)
+		(instances
+			(project "RS1_PCB_main"
+				(path "/a653fd6e-21e1-4b42-a5b7-9f0a6f836fae"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -15310,6 +15258,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 238.76 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b4880aa-0f61-4c3c-8889-a9671ecfffbe")
+		(property "Reference" "TP8"
+			(at 237.49 165.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "-"
+			(at 236.728 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 243.84 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 238.76 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59b3a2ed-0e30-4075-aa03-8a3c27d7c537")
+		)
+		(instances
+			(project "RS1_PCB_main"
+				(path "/a653fd6e-21e1-4b42-a5b7-9f0a6f836fae"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Extended:Connector, USB-TYPE-C-16P")
 		(at 91.44 43.18 180)
 		(unit 1)
@@ -16698,76 +16713,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ESP32_C6_Lib:TP_1.75mm_2Points")
-		(at 236.22 166.37 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "92cf56d9-d232-4e15-8b38-4f6cbe93c74f")
-		(property "Reference" "U8"
-			(at 232.156 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RST"
-			(at 232.156 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ESP32_C6_libfoot:TP_1.75mm_2Points"
-			(at 236.22 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 236.22 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f44998e-1f38-4546-8917-aa9dd162437b")
-		)
-		(pin "2"
-			(uuid "61bd2f48-c3b3-452e-9fc5-2cf6a768c421")
-		)
-		(instances
-			(project "RS1_PCB_main"
-				(path "/a653fd6e-21e1-4b42-a5b7-9f0a6f836fae"
-					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,10kΩ")
 		(at 204.47 156.21 0)
 		(unit 1)
@@ -17885,6 +17830,72 @@
 			(project "RS1_PCB_main"
 				(path "/a653fd6e-21e1-4b42-a5b7-9f0a6f836fae"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 233.68 166.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0d655a2-5f4e-4010-a25c-3c8dc6ce4b46")
+		(property "Reference" "TP7"
+			(at 235.204 172.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RST"
+			(at 235.712 174.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 228.6 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 233.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4820bd37-8bfb-46f0-96d1-12b71bf8d29c")
+		)
+		(instances
+			(project "RS1_PCB_main"
+				(path "/a653fd6e-21e1-4b42-a5b7-9f0a6f836fae"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -19422,6 +19433,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 204.47 166.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8551fab-2eaa-43ad-b605-a8374257b616")
+		(property "Reference" "TP1"
+			(at 205.994 172.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BOOT"
+			(at 206.502 174.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 199.39 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 204.47 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "797d4e5f-2116-43ad-a315-3a42f9901796")
+		)
+		(instances
+			(project "RS1_PCB_main"
+				(path "/a653fd6e-21e1-4b42-a5b7-9f0a6f836fae"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 44.45 124.46 270)
 		(unit 1)
@@ -19481,76 +19558,6 @@
 			(project "RS1_PCB_main"
 				(path "/a653fd6e-21e1-4b42-a5b7-9f0a6f836fae"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ESP32_C6_Lib:TP_1.75mm_2Points")
-		(at 207.01 166.37 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e08abaf6-e95e-40ae-9652-e433f12ec3e7")
-		(property "Reference" "U7"
-			(at 202.184 178.308 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BOOT"
-			(at 202.184 175.768 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ESP32_C6_libfoot:TP_1.75mm_2Points"
-			(at 207.01 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 207.01 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "618d4a45-7ad8-4587-be0e-ef41305090bf")
-		)
-		(pin "2"
-			(uuid "4064b022-02c2-4f4d-b337-3c8104e756e2")
-		)
-		(instances
-			(project "RS1_PCB_main"
-				(path "/a653fd6e-21e1-4b42-a5b7-9f0a6f836fae"
-					(reference "U7")
 					(unit 1)
 				)
 			)
